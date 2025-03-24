@@ -83,7 +83,7 @@ Stocksage is a user-friendly dashboard designed to empower retail investors with
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-
 ## Contact
 
-For support, email desaijainil9657@gmail.com.
+For technical support or assistance, please email support@stocksage.com. For other inquiries, contact me at desaijainil9657@gmail.com.
+You can also connect with me on [LinkedIn]([link-to-your-linkedin](https://www.linkedin.com/in/jainil-desai-ab51b9275/)).
