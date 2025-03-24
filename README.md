@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Stocksage is a user-friendly dashboard designed to empower retail investors with essential tools and insights for making informed investment decisions. This project was developed during a hackathon by our team, focusing on a clean UI and powerful features like AI-driven chatbot assistance, real-time sentiment analysis, and seamless Firebase authentication.
+Stocksage is a user-friendly dashboard designed to empower retail investors with essential tools and insights for making informed investment decisions. Our team developed this project during a hackathon, focusing on a clean UI and powerful features like AI-driven chatbot assistance, real-time sentiment analysis, and seamless Firebase authentication.
 
 ## Features
 
@@ -79,3 +79,11 @@ Stocksage is a user-friendly dashboard designed to empower retail investors with
 * Integration with more data sources.
 * Enhanced user personalization.
 
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+
+## Contact
+
+For support, email desaijainil9657@gmail.com.
