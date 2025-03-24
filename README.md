@@ -87,3 +87,5 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 
 For technical support or assistance, please email support@stocksage.com. For other inquiries, contact me at desaijainil9657@gmail.com.
 You can also connect with me on [LinkedIn](https://www.linkedin.com/in/jainil-desai-ab51b9275/).
+
+Feel free to customize it further based on your Imagination and Creativity :)
