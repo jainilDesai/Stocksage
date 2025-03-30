@@ -13,9 +13,12 @@ const Chatbot = () => {
     setMessages((prev) => [...prev, userMessage]);
 
     try {
-      const response = await axios.post("http://localhost:5000/gemini/chat", {
-        message: input,
-      });
+      const response = await axios.post(
+        "https://stocksage-backend.onrender.com/gemini/chat",
+        {
+          message: input,
+        }
+      );
 
       const botReply = { sender: "bot", text: response.data.reply };
       setMessages((prev) => [...prev, botReply]);
@@ -28,35 +31,9 @@ const Chatbot = () => {
       setMessages((prev) => [...prev, errorMsg]);
     }
 
-    setInput(""); // Clear input field
+    setInput(""); // Clear input field after sending message
   };
 
-  // return (
-  //   <div className="chat-container">
-  //     <div className="chat-header">
-  //       <h2>AI Chatbot</h2>
-  //     </div>
-
-  //     <div className="chat-messages">
-  //       {messages.map((msg, index) => (
-  //         <div key={index} className={`message ${msg.sender}`}>
-  //           {msg.text}
-  //         </div>
-  //       ))}
-  //     </div>
-
-  //     <div className="chat-input">
-  //       <input
-  //         type="text"
-  //         placeholder="Ask something..."
-  //         value={input}
-  //         onChange={(e) => setInput(e.target.value)}
-  //         onKeyDown={(e) => e.key === "Enter" && sendMessage()}
-  //       />
-  //       <button onClick={sendMessage}>Send</button>
-  //     </div>
-  //   </div>
-  // );
   return (
     <div className="chat-container">
       <div className="chat-header">
