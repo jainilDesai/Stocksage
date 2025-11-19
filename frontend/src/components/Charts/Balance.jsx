@@ -17,7 +17,7 @@ function Balance() {
             type: "indicator",
             mode: "number+delta",
             value: balance,
-            number: { prefix: "₹", font: { size: 42 } },
+            number: { prefix: "$", font: { size: 42 } },
             delta: {
               font: { size: 20 },
               position: "button",
