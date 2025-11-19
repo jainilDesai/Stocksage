@@ -211,7 +211,7 @@ function StockTable({ data, type, title, w, h }) {
                             justifyContent="start"
                             fontWeight="600"
                           >
-                            <span>{`₹ ${stock.Price}`}</span>
+                            <span>{`$ ${stock.Price}`}</span>
                           </Box>
                           <Box
                             display={type === "investments" ? "flex" : "none"}
@@ -220,7 +220,7 @@ function StockTable({ data, type, title, w, h }) {
                             justifyContent="start"
                             fontWeight="600"
                           >
-                            <span>{`₹ ${stock.Amount}`}</span>
+                            <span>{`$ ${stock.Amount}`}</span>
                           </Box>
                         </Box>
                       </Td>
