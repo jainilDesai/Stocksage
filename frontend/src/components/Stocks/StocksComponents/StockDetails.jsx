@@ -224,7 +224,7 @@ function StockDetails({ symbol2, title, w }) {
               </Box>
               <Box display="flex" flexDirection="column" gap="5px">
                 <Heading>
-                  <strong>₹ {Number(chartData.y[0]).toFixed(2)}</strong>
+                  <strong>$ {Number(chartData.y[0]).toFixed(2)}</strong>
                 </Heading>
                 <Heading
                   as="h3"
@@ -319,7 +319,7 @@ function StockDetails({ symbol2, title, w }) {
                       </SliderTrack>
                       <SliderThumb bgColor="#3F51B5" fontSize="1.1rem">
                         <Box position="relative" top="-20px">
-                          ₹{amount}
+                          ${amount}
                         </Box>
                       </SliderThumb>
                     </Slider>
